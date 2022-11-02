@@ -7,20 +7,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--Boostrap-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!--AOS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!--Icon from Font-Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css" integrity="sha512-+oRH6u1nDGSm3hH8poU85YFIVTdSnS2f+texdPGrURaJh8hzmhMiZrQth6l56P4ZQmxeZzd2DqVEMqQoJ8J89A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"
+        integrity="sha512-HHsOC+h3najWR7OKiGZtfhFIEzg5VRIPde0kB0bG2QRidTQqf+sbfcxCTB16AcFB93xMjnBIKE29/MjdzXE+qw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="Assets/CSS/style.css">
 
 </head>
 
 <body>
+
+    <nav class="navbar navbar-expand-lg bg-blur-black fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand text-uppercase" href="#">IDN <span class="text-info">Resto</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Panorama</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="panel-content d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="desc text-white" data-aos="fade-right" data-aos-duration="3000">
+                            <p class="text-title mb-4 text-uppercase">idn <span class="text-info">cafe and resto</span>
+                            </p>
+                            <p class="text-uppercase">Original Taste From Nusantara</p>
+                            <p>Feel the true taste of the original ancestral traditions of the archipelago, which are still maintained and always passed down from time to time</p>
+                            <a href="#" class="btn btn-info rounded p-2 text-uppercase">Explore Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 img-brand d-flex justify-content-center">
+                        <img src="/Assets/IMG/image-noodles.png" alt="noodles" class="img-fluid" data-aos="fade-left" data-aos-duration="3000">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="second" id="second">
+        <div class="container d-flex p-4">
+            <div class="col-md-4">
+                <!--Image-->
+                <img src="/Assets/IMG/image-jus.png" alt="coffe" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <p class="text-title text-info">Do you know?</p>
+                <p>Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables. It can also refer to liquids that are flavored with concentrate or other biological food sources, such as meat or seafood, such as clam juice. Juice is commonly consumed as a beverage or used as an ingredient or flavoring in foods or other beverages, as for smoothies. Juice emerged as a popular beverage choice after the development of pasteurization methods enabled its preservation without using fermentation (which is used in wine production). The largest fruit juice consumers are New Zealand (nearly a cup, or 8 ounces, each day) and Colombia (more than three quarters of a cup each day). Fruit juice consumption on average increases with a country's income level.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
