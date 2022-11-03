@@ -36,10 +36,15 @@
 
 .menu {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('https://images.unsplash.com/photo-1664575599618-8f6bd76fc670?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.panorama{
+    width: 100vw;
+    height: 100vh;
 }
 
 @media screen and (max-width:767px) {
