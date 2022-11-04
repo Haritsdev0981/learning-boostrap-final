@@ -44,7 +44,10 @@
 
 .panorama{
     width: 100vw;
-    height: 100vh;
+}
+
+.booking {
+    width: 100vw;
 }
 
 @media screen and (max-width:767px) {
